@@ -74,7 +74,7 @@ class MainScene extends Phaser.Scene {
                 const y = startY + cellHeight * (row + 0.5);
 
                 // 穴（楕円）
-                const hole = this.add.ellipse(x, y, 120, 60, 0x654321);
+                const hole = this.add.ellipse(x, y, 120, 60, 0x1A0A04);
                 hole.setStrokeStyle(3, 0x000000);
 
                 holes.push({

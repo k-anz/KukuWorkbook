@@ -1,16 +1,36 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
-  <!-- 汗（左） -->
-  <circle cx="8" cy="25" r="6" fill="#87CEEB"/>
-  <!-- 汗（右） -->
-  <circle cx="92" cy="25" r="6" fill="#87CEEB"/>
-  <!-- モグラ本体（オレンジ色の円） -->
-  <circle cx="50" cy="50" r="48" fill="#FF8C00" stroke="#000" stroke-width="4"/>
-  <!-- 左目（×マーク） -->
-  <line x1="25" y1="30" x2="45" y2="50" stroke="#000" stroke-width="4" stroke-linecap="round"/>
-  <line x1="45" y1="30" x2="25" y2="50" stroke="#000" stroke-width="4" stroke-linecap="round"/>
-  <!-- 右目（×マーク） -->
-  <line x1="55" y1="30" x2="75" y2="50" stroke="#000" stroke-width="4" stroke-linecap="round"/>
-  <line x1="75" y1="30" x2="55" y2="50" stroke="#000" stroke-width="4" stroke-linecap="round"/>
-  <!-- 口（波線） -->
-  <path d="M 30 65 Q 40 70 50 65 Q 60 60 70 65" fill="none" stroke="#000" stroke-width="3" stroke-linecap="round"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 180" width="120" height="180">
+  <ellipse cx="60" cy="170" rx="52" ry="13" fill="#0D0705"/>
+  <ellipse cx="60" cy="163" rx="48" ry="20" fill="#5E3A18"/>
+  <!-- Head low -->
+  <ellipse cx="60" cy="126" rx="46" ry="40" fill="#5E3A18"/>
+  <!-- Snout -->
+  <ellipse cx="60" cy="140" rx="26" ry="21" fill="#B8906A"/>
+  <!-- Nose -->
+  <ellipse cx="60" cy="130" rx="9" ry="8" fill="#1A1A1A"/>
+  <ellipse cx="56" cy="131" rx="2.5" ry="2" fill="#0A0A0A"/>
+  <ellipse cx="64" cy="131" rx="2.5" ry="2" fill="#0A0A0A"/>
+  <!-- Whiskers drooping -->
+  <line x1="50" y1="136" x2="20" y2="132" stroke="#888" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="50" y1="140" x2="18" y2="143" stroke="#888" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="50" y1="144" x2="20" y2="153" stroke="#888" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="70" y1="136" x2="100" y2="132" stroke="#888" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="70" y1="140" x2="102" y2="143" stroke="#888" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="70" y1="144" x2="100" y2="153" stroke="#888" stroke-width="1.5" stroke-linecap="round"/>
+  <!-- X eyes -->
+  <line x1="38" y1="112" x2="50" y2="124" stroke="#2C1810" stroke-width="3.5" stroke-linecap="round"/>
+  <line x1="50" y1="112" x2="38" y2="124" stroke="#2C1810" stroke-width="3.5" stroke-linecap="round"/>
+  <line x1="70" y1="112" x2="82" y2="124" stroke="#2C1810" stroke-width="3.5" stroke-linecap="round"/>
+  <line x1="82" y1="112" x2="70" y2="124" stroke="#2C1810" stroke-width="3.5" stroke-linecap="round"/>
+  <!-- Sad mouth -->
+  <path d="M48 156 Q60 148 72 156" stroke="#A05060" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <!-- Tears both sides -->
+  <ellipse cx="34" cy="128" rx="3.5" ry="5" fill="#6BA3D6" opacity="0.85"/>
+  <polygon points="30,128 34,117 38,128" fill="#6BA3D6" opacity="0.85"/>
+  <ellipse cx="86" cy="128" rx="3.5" ry="5" fill="#6BA3D6" opacity="0.85"/>
+  <polygon points="82,128 86,117 90,128" fill="#6BA3D6" opacity="0.85"/>
+  <!-- Bruise -->
+  <ellipse cx="60" cy="92" rx="10" ry="6" fill="#3E2410" opacity="0.6"/>
+  <!-- Paws slumped -->
+  <ellipse cx="18" cy="160" rx="14" ry="8" fill="#5E3A18" transform="rotate(30,18,160)"/>
+  <ellipse cx="102" cy="160" rx="14" ry="8" fill="#5E3A18" transform="rotate(-30,102,160)"/>
 </svg>
